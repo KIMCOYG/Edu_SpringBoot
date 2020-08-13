@@ -30,7 +30,7 @@ public abstract class Item {
     //==비즈니스 로직==//
     //stock 증가
     public void addStock(int quantity) {
-        this.stockQuanity += quantity
+        this.stockQuanity += quantity;
     }
 
     public void removeStock(int quantity) {
